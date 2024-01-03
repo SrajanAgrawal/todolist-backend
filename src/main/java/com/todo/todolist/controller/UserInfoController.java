@@ -11,7 +11,7 @@
 
 
     @RestController
-    @CrossOrigin(origins = "http://localhost:3000")
+//    @CrossOrigin(origins = "http://localhost:3000")
     public class UserInfoController {
 
         @Autowired
