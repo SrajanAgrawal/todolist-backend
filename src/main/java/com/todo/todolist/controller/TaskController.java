@@ -20,6 +20,7 @@ import java.util.Optional;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/task")
+@CrossOrigin("*")
 //@CrossOrigin(origins = "http://localhost:3000")
 public class TaskController {
 
